@@ -187,7 +187,7 @@ class App extends React.Component {
                 <h1 className="title">Stats</h1>
                 <div className="columns">
 
-                    <div className="column">
+                    <div className="column is-6">
                         <div className="card">
                             <div className="card-content">
                                 <h1 className="subtitle">CPU</h1>
@@ -200,7 +200,7 @@ class App extends React.Component {
                         </div>
 
                     </div>
-                    <div className="column">
+                    <div className="column is-6">
                         <div className="card">
                             <div className="card-content">
                                 <h1 className="subtitle">Memory</h1>
@@ -219,7 +219,7 @@ class App extends React.Component {
                 <div className="columns">
 
 
-                    <div className="column">
+                    <div className="column is-6">
                         <div className="card">
                             <div className="card-content">
                                 <h1 className="subtitle">Disk</h1>
@@ -234,7 +234,7 @@ class App extends React.Component {
                     </div>
 
 
-                    <div className="column">
+                    <div className="column is-6">
                         <div className="card">
                             <div className="card-content">
                                 <h1 className="subtitle">Operating System</h1>

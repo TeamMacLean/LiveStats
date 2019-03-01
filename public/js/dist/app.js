@@ -53679,7 +53679,7 @@ function (_React$Component3) {
       }, "Stats"), _react.default.createElement("div", {
         className: "columns"
       }, _react.default.createElement("div", {
-        className: "column"
+        className: "column is-6"
       }, _react.default.createElement("div", {
         className: "card"
       }, _react.default.createElement("div", {
@@ -53690,7 +53690,7 @@ function (_React$Component3) {
         percent: self.state.stats.cpuPercentage,
         id: "CPU"
       })))), _react.default.createElement("div", {
-        className: "column"
+        className: "column is-6"
       }, _react.default.createElement("div", {
         className: "card"
       }, _react.default.createElement("div", {
@@ -53703,7 +53703,7 @@ function (_React$Component3) {
       }))))), _react.default.createElement("div", {
         className: "columns"
       }, _react.default.createElement("div", {
-        className: "column"
+        className: "column is-6"
       }, _react.default.createElement("div", {
         className: "card"
       }, _react.default.createElement("div", {
@@ -53714,7 +53714,7 @@ function (_React$Component3) {
         percent: self.state.stats.driveInfo.usedPercentage,
         id: "DRIVE"
       })))), _react.default.createElement("div", {
-        className: "column"
+        className: "column is-6"
       }, _react.default.createElement("div", {
         className: "card"
       }, _react.default.createElement("div", {
