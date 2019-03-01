@@ -1,0 +1,28 @@
+{
+  "name": "livestats",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "build": "node_modules/.bin/parcel build public/js/src/*.js* -d public/js/dist",
+    "watch": "node_modules/.bin/parcel watch public/js/src/*.js* -d public/js/dist"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "less-middleware": "~2.2.1",
+    "morgan": "~1.9.0",
+    "node-os-utils": "^1.0.7",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "bulma": "^0.7.2",
+    "chart.js": "^2.7.3",
+    "parcel": "^1.11.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "socket.io-client": "latest"
+  }
+}
