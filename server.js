@@ -65,6 +65,6 @@ setInterval(() => {
     sendStats(io);
 }, 1000);
 
-http.listen(3000, () => {
+http.listen(require('./config.json'), () => {
     console.log('listening on *:3000');
 });
